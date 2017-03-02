@@ -1,11 +1,14 @@
 {
-    "name": "elkan/behatformatter",
+    "name": "unisharp/behatformatter",
     "description": "This will create a formatter for Behat 3! Fast, Easy and Pretty!",
     "license": "MIT",
     "authors": [
         {
             "name": "Elkan Roelen",
             "email": "roelen@elkan.nl"
+        },
+        {
+            "name": "UniSharp Ltd."
         }
     ],
     "minimum-stability": "dev",
