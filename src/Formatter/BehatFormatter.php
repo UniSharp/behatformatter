@@ -736,7 +736,7 @@ class BehatFormatter implements Formatter {
                     $step->setDefinition($result->getStepDefinition());
                     $exception = $result->getException();
                     if($exception) {
-                        $step->setException($exception->getMessage());
+                        $step->setException($exception->__toString());
                         $this->failedSteps[] = $step;
                     } else {
                         $step->setOutput($result->getCallResult()->getStdOut());
